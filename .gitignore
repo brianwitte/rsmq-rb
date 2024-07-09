@@ -1,0 +1,68 @@
+# Ignore Ruby related files
+*.gem
+*.rbc
+.bundle/
+.bundle/
+.config
+.coverage/
+.ruby-version
+.ruby-gemset
+
+# Ignore installed gems
+vendor/bundle
+vendor/cache
+vendor/gems
+vendor/ruby
+
+# Ignore specific database config files
+config/database.yml
+db/*.sqlite3
+db/*.sqlite3-journal
+db/schema.rb
+
+# Ignore system files and folders
+*.swp
+*~
+.DS_Store
+.idea/
+.vscode/
+Thumbs.db
+
+# Ignore environment variables
+.env
+
+# Ignore specific logs and temp files
+log/*.log
+tmp/
+tmp/pids/
+tmp/cache/
+tmp/sockets/
+tmp/db/
+
+# Ignore spec and test files
+spec/reports/
+spec/examples.txt
+
+# Ignore documentation
+doc/
+*.rdoc
+
+# Ignore packaging files
+pkg/
+
+# Ignore other common files that should not be tracked
+/.bundle
+/.yardoc
+/_yardoc/
+/coverage/
+/doc/
+/pkg/
+/spec/reports/
+/test/tmp/
+/test/version_tmp/
+tmp/
+
+# Ignore files related to gem building
+*.gemspec
+.rspec
+Gemfile.lock
